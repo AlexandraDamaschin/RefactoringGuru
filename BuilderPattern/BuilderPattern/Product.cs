@@ -2,9 +2,8 @@
 
 namespace BuilderPattern
 {
-    class Product
+    public class Product
     {
-
         private List<object> _parts = new List<object>();
 
         public void Add(string part)

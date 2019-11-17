@@ -31,9 +31,9 @@
 
         public Product GetProduct()
         {
-            Product result = this._product;
+            Product result = _product;
 
-            this.Reset();
+            Reset();
 
             return result;
         }
