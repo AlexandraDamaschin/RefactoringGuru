@@ -17,7 +17,7 @@
     {
         public string UsefulFunctionA()
         {
-            return "The result of the product A2.";
+            return "the result of the product A2.";
         }
     }
 
@@ -25,14 +25,14 @@
     {
         public string UsefulFunctionB()
         {
-            return "The result of the product B2.";
+            return "the result of the product B2.";
         }
 
         public string AnotherUsefulFunctionB(IAbstractProductA collaborator)
         {
             var result = collaborator.UsefulFunctionA();
 
-            return $"The result of the B2 collaborating with the ({result})";
+            return $"The result of the B2 collaborating with ({result})";
         }
     }
 }
